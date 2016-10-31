@@ -1,17 +1,11 @@
 ﻿// Learn more about F# at http://fsharp.org
 // See the 'F# Tutorial' project for more help.
 
+open Answer
+open Code
 [<EntryPoint>]
 let main argv = 
     printfn "%A" argv
-
-"3"
-"3"
-"html text/html"
-"png image/png"
-"gif image/gif"
-"animated.gif"
-"portrait.png"
-"index.html"
-
+    "CC" |> read
     0 // return an integer exit code
+//"10000111000011"

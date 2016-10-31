@@ -1,4 +1,5 @@
-﻿open System
+﻿module Answer
+open System
 open Microsoft.FSharp.Core
 open System.Collections.Generic
 

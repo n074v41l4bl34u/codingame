@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>65decb84-95b4-4c9f-8760-c63e3f84d409</ProjectGuid>
+    <ProjectGuid>b87be229-83bd-4e41-b262-0ea2f60773b8</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>codingame_mime_type</RootNamespace>
-    <AssemblyName>codingame_mime_type</AssemblyName>
+    <RootNamespace>codingame_chuck_norris</RootNamespace>
+    <AssemblyName>codingame_chuck_norris</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
-    <Name>codingame-mime-type</Name>
+    <Name>codingame-chuck-norris</Name>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -24,7 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\codingame_mime_type.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\codingame_chuck_norris.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -35,7 +35,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\codingame_mime_type.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\codingame_chuck_norris.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
@@ -49,10 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Copy of Answer.fs" />
+    <Compile Include="Answer.fs" />
+    <Compile Include="code.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
-    <Compile Include="Answer.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
